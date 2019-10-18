@@ -33,6 +33,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B01BDBE235A5EFA0096AA9F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D720E1C42357EAEA009C5A38 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1B01BDBF235A5F9B0096AA9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D720E1BE2357EAEA009C5A38 /* AppDelegate.swift */,
+				D720E1C72357EAEC009C5A38 /* Assets.xcassets */,
+				D720E1C92357EAEC009C5A38 /* LaunchScreen.storyboard */,
+				D720E1CC2357EAEC009C5A38 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		D720E1B22357EAE9009C5A38 = {
 			isa = PBXGroup;
 			children = (
@@ -52,15 +71,12 @@
 		D720E1BD2357EAEA009C5A38 /* ios-WaterMyPlants */ = {
 			isa = PBXGroup;
 			children = (
+				1B01BDBE235A5EFA0096AA9F /* Storyboards */,
 				D720E1D32357ED94009C5A38 /* Models */,
 				D720E1D42357ED99009C5A38 /* Views */,
 				D720E1D22357ED8C009C5A38 /* Controllers */,
 				D720E1D52357EDED009C5A38 /* Helpers */,
-				D720E1BE2357EAEA009C5A38 /* AppDelegate.swift */,
-				D720E1C42357EAEA009C5A38 /* Main.storyboard */,
-				D720E1C72357EAEC009C5A38 /* Assets.xcassets */,
-				D720E1C92357EAEC009C5A38 /* LaunchScreen.storyboard */,
-				D720E1CC2357EAEC009C5A38 /* Info.plist */,
+				1B01BDBF235A5F9B0096AA9F /* Resources */,
 			);
 			path = "ios-WaterMyPlants";
 			sourceTree = "<group>";
