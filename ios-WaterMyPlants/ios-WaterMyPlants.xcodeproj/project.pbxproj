@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BD506EF235EA98C00B3679E /* Owner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BD506ED235EA98C00B3679E /* Owner.xcdatamodeld */; };
+		1B444715235FEB4A00AAD4C7 /* User.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B444713235FEB4A00AAD4C7 /* User.xcdatamodeld */; };
 		D720E1BF2357EAEA009C5A38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720E1BE2357EAEA009C5A38 /* AppDelegate.swift */; };
 		D720E1C62357EAEA009C5A38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D720E1C42357EAEA009C5A38 /* Main.storyboard */; };
 		D720E1C82357EAEC009C5A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D720E1C72357EAEC009C5A38 /* Assets.xcassets */; };
@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1BD506EE235EA98C00B3679E /* Owner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Owner.xcdatamodel; sourceTree = "<group>"; };
+		1B444714235FEB4A00AAD4C7 /* User.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = User.xcdatamodel; sourceTree = "<group>"; };
 		D720E1BB2357EAEA009C5A38 /* ios-WaterMyPlants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-WaterMyPlants.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D720E1BE2357EAEA009C5A38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D720E1C52357EAEA009C5A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,7 +79,6 @@
 				D720E1D22357ED8C009C5A38 /* Controllers */,
 				D720E1D52357EDED009C5A38 /* Helpers */,
 				1B01BDBF235A5F9B0096AA9F /* Resources */,
-				1BD506ED235EA98C00B3679E /* Owner.xcdatamodeld */,
 			);
 			path = "ios-WaterMyPlants";
 			sourceTree = "<group>";
@@ -94,6 +93,7 @@
 		D720E1D32357ED94009C5A38 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1B444713235FEB4A00AAD4C7 /* User.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -183,8 +183,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B444715235FEB4A00AAD4C7 /* User.xcdatamodeld in Sources */,
 				D720E1BF2357EAEA009C5A38 /* AppDelegate.swift in Sources */,
-				1BD506EF235EA98C00B3679E /* Owner.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,13 +384,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1BD506ED235EA98C00B3679E /* Owner.xcdatamodeld */ = {
+		1B444713235FEB4A00AAD4C7 /* User.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1BD506EE235EA98C00B3679E /* Owner.xcdatamodel */,
+				1B444714235FEB4A00AAD4C7 /* User.xcdatamodel */,
 			);
-			currentVersion = 1BD506EE235EA98C00B3679E /* Owner.xcdatamodel */;
-			path = Owner.xcdatamodeld;
+			currentVersion = 1B444714235FEB4A00AAD4C7 /* User.xcdatamodel */;
+			path = User.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
