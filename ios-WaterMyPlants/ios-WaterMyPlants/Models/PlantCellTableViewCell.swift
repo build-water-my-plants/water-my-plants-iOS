@@ -33,8 +33,8 @@ class PlantCellTableViewCell: UITableViewCell {
               return }
           
               plantScheduleLabel.text = passedInPlant.schedule?.formatDate()
-          print(passedInPlant.schedule?.formatDate())
-              plantNameLabel.text = passedInPlant.name
+                plantNameLabel.text = passedInPlant.name
+        speciesLabel.text = passedInPlant.species
           plantImageView.image = image
       }
 
