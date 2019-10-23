@@ -180,7 +180,7 @@
                         <outlet property="datePickerProperties" destination="8v3-RG-PdG" id="MyM-pe-6Pl"/>
                         <outlet property="plantImageView" destination="GM4-gM-oha" id="vLF-7c-APF"/>
                         <outlet property="plantNameTextField" destination="wHI-4h-j1S" id="qcz-Br-JpC"/>
-                        <outlet property="speciesTextField" destination="dhr-0u-Ib5" id="OK5-DZ-jz8"/>
+                        <outlet property="speciesTextField" destination="dhr-0u-Ib5" id="Y25-w2-sEQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WJ8-mg-zRU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
