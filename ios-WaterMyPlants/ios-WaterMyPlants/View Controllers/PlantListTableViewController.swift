@@ -74,7 +74,7 @@ class PlantListTableViewController: UITableViewController {
             guard let destination = segue.destination as? PlantDetailViewController, let indexPath = tableView.indexPathForSelectedRow else { return }
 //            let owner = fetchedResultsController.object(at: indexPath)
              let plant = fetchedResultsController.object(at: indexPath)
-            destination.owner = plant.owner
+            destination.user = plant.user
 //            self.owner = plant.owner
         } else if segue.identifier == "settingSegue"{
             guard let destination = segue.destination as? SettingsViewController  else { return }

@@ -10,13 +10,13 @@
         <!--Plant List-->
         <scene sceneID="sxy-mx-vMw">
             <objects>
-                <tableViewController id="jgN-kj-fdM" customClass="PlantListTableViewController" customModule="waterMyPlantTemp" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="jgN-kj-fdM" customClass="PlantListTableViewController" customModule="ios_WaterMyPlants" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="377" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="AKH-I6-Enh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="plantCell" rowHeight="377" id="SFQ-Br-e0I" customClass="PlantCellTableViewCell" customModule="waterMyPlantTemp" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="plantCell" rowHeight="377" id="SFQ-Br-e0I" customClass="PlantCellTableViewCell" customModule="ios_WaterMyPlants" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="377"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SFQ-Br-e0I" id="mA9-lt-oWV">
@@ -102,13 +102,13 @@
         <!--Plant Detail View Controller-->
         <scene sceneID="kZ9-eU-S23">
             <objects>
-                <viewController id="ptp-wo-bWu" customClass="PlantDetailViewController" customModule="waterMyPlantTemp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ptp-wo-bWu" customClass="PlantDetailViewController" customModule="ios_WaterMyPlants" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0wI-JP-wf9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Schedule Watering" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWd-qQ-BOI">
-                                <rect key="frame" x="0.0" y="521" width="144.5" height="20.5"/>
+                                <rect key="frame" x="0.0" y="617" width="144.5" height="20.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="144.5" id="jRS-gY-a4E"/>
                                 </constraints>
@@ -117,7 +117,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="8v3-RG-PdG">
-                                <rect key="frame" x="0.0" y="550" width="414" height="312"/>
+                                <rect key="frame" x="0.0" y="646" width="414" height="216"/>
                                 <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="414" id="6qG-Wc-g22"/>
@@ -137,18 +137,26 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="752" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Plant's Species" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dhr-0u-Ib5">
+                                <rect key="frame" x="0.0" y="439" width="414" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="IZe-Ne-vKV" firstAttribute="bottom" secondItem="8v3-RG-PdG" secondAttribute="bottom" id="04v-cd-arR"/>
-                            <constraint firstItem="VWd-qQ-BOI" firstAttribute="top" secondItem="wHI-4h-j1S" secondAttribute="bottom" constant="90" id="1H9-yr-nJ0"/>
                             <constraint firstItem="GM4-gM-oha" firstAttribute="leading" secondItem="0wI-JP-wf9" secondAttribute="leading" id="9F2-9w-rdZ"/>
                             <constraint firstItem="wHI-4h-j1S" firstAttribute="top" secondItem="GM4-gM-oha" secondAttribute="bottom" constant="26" id="9Tt-Ec-eyB"/>
                             <constraint firstItem="8v3-RG-PdG" firstAttribute="leading" secondItem="VWd-qQ-BOI" secondAttribute="leading" id="Ahv-6c-v5r"/>
                             <constraint firstItem="GM4-gM-oha" firstAttribute="top" secondItem="IZe-Ne-vKV" secondAttribute="top" id="C8a-hj-ak9"/>
                             <constraint firstItem="IZe-Ne-vKV" firstAttribute="trailing" secondItem="GM4-gM-oha" secondAttribute="trailing" id="Tqt-Um-hmH"/>
                             <constraint firstItem="VWd-qQ-BOI" firstAttribute="leading" secondItem="wHI-4h-j1S" secondAttribute="leading" id="V2G-Or-64n"/>
+                            <constraint firstItem="dhr-0u-Ib5" firstAttribute="trailing" secondItem="IZe-Ne-vKV" secondAttribute="trailing" id="XJf-lD-ueT"/>
+                            <constraint firstItem="VWd-qQ-BOI" firstAttribute="top" secondItem="dhr-0u-Ib5" secondAttribute="bottom" constant="144" id="cMX-c1-5Qn"/>
+                            <constraint firstItem="dhr-0u-Ib5" firstAttribute="leading" secondItem="IZe-Ne-vKV" secondAttribute="leading" id="f4k-xx-lBe"/>
                             <constraint firstItem="IZe-Ne-vKV" firstAttribute="trailing" secondItem="wHI-4h-j1S" secondAttribute="trailing" id="gpx-xs-0Ii"/>
+                            <constraint firstItem="dhr-0u-Ib5" firstAttribute="top" secondItem="wHI-4h-j1S" secondAttribute="bottom" constant="8" id="hFt-Sa-3RU"/>
                             <constraint firstItem="wHI-4h-j1S" firstAttribute="leading" secondItem="IZe-Ne-vKV" secondAttribute="leading" id="sru-i7-R0g"/>
                             <constraint firstItem="8v3-RG-PdG" firstAttribute="top" secondItem="VWd-qQ-BOI" secondAttribute="bottom" constant="8.5" id="wZg-t1-tDW"/>
                         </constraints>
@@ -172,6 +180,7 @@
                         <outlet property="datePickerProperties" destination="8v3-RG-PdG" id="MyM-pe-6Pl"/>
                         <outlet property="plantImageView" destination="GM4-gM-oha" id="vLF-7c-APF"/>
                         <outlet property="plantNameTextField" destination="wHI-4h-j1S" id="qcz-Br-JpC"/>
+                        <outlet property="speciesTextField" destination="dhr-0u-Ib5" id="OK5-DZ-jz8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WJ8-mg-zRU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -181,7 +190,7 @@
         <!--Settings View Controller-->
         <scene sceneID="pnb-OX-sVa">
             <objects>
-                <viewController id="ofd-dc-iMG" customClass="SettingsViewController" customModule="waterMyPlantTemp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ofd-dc-iMG" customClass="SettingsViewController" customModule="ios_WaterMyPlants" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NVh-xA-kRX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

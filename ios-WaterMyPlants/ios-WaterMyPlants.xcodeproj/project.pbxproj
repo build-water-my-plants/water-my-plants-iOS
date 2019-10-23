@@ -17,6 +17,7 @@
 		1B7EC6C72360A8B900547000 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7EC6C62360A8B900547000 /* DateExtension.swift */; };
 		1B7EC6C92360AA6E00547000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7EC6C82360AA6E00547000 /* Main.storyboard */; };
 		1B7EC6D12360B3EB00547000 /* PlantListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7EC6CE2360B3EB00547000 /* PlantListTableViewController.swift */; };
+		1B7EC6D52360B5DA00547000 /* PlantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7EC6D42360B5DA00547000 /* PlantDetailViewController.swift */; };
 		D720E1BF2357EAEA009C5A38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720E1BE2357EAEA009C5A38 /* AppDelegate.swift */; };
 		D720E1C82357EAEC009C5A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D720E1C72357EAEC009C5A38 /* Assets.xcassets */; };
 		D720E1CB2357EAEC009C5A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D720E1C92357EAEC009C5A38 /* LaunchScreen.storyboard */; };
@@ -33,6 +34,7 @@
 		1B7EC6C62360A8B900547000 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = "ios-WaterMyPlants/Models/DateExtension.swift"; sourceTree = SOURCE_ROOT; };
 		1B7EC6C82360AA6E00547000 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1B7EC6CE2360B3EB00547000 /* PlantListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantListTableViewController.swift; sourceTree = "<group>"; };
+		1B7EC6D42360B5DA00547000 /* PlantDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlantDetailViewController.swift; path = "../../../../../../../waterMyPlantTemp/waterMyPlantTemp/Model Controller/PlantDetailViewController.swift"; sourceTree = "<group>"; };
 		D720E1BB2357EAEA009C5A38 /* ios-WaterMyPlants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-WaterMyPlants.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D720E1BE2357EAEA009C5A38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D720E1C72357EAEC009C5A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				1B7EC6CE2360B3EB00547000 /* PlantListTableViewController.swift */,
+				1B7EC6D42360B5DA00547000 /* PlantDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				1B7EC6C32360A6B200547000 /* PlantController.swift in Sources */,
 				1B444715235FEB4A00AAD4C7 /* User.xcdatamodeld in Sources */,
 				D720E1BF2357EAEA009C5A38 /* AppDelegate.swift in Sources */,
+				1B7EC6D52360B5DA00547000 /* PlantDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
