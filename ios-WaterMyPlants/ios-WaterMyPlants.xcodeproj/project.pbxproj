@@ -10,7 +10,6 @@
 		1BD506EF235EA98C00B3679E /* Owner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BD506ED235EA98C00B3679E /* Owner.xcdatamodeld */; };
 		D720E1BF2357EAEA009C5A38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720E1BE2357EAEA009C5A38 /* AppDelegate.swift */; };
 		D720E1C82357EAEC009C5A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D720E1C72357EAEC009C5A38 /* Assets.xcassets */; };
-		D720E1CB2357EAEC009C5A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D720E1C92357EAEC009C5A38 /* LaunchScreen.storyboard */; };
 		D790CE0D235B49AF00DD47D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D790CE0C235B49AF00DD47D9 /* Main.storyboard */; };
 		D790CE0F235B4AD700DD47D9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D790CE0E235B4AD700DD47D9 /* Login.storyboard */; };
 		D790CE11235B4BF900DD47D9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D790CE10235B4BF900DD47D9 /* LoginViewController.swift */; };
@@ -18,6 +17,7 @@
 		D790CE15235B4E5D00DD47D9 /* PlantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D790CE14235B4E5D00DD47D9 /* PlantTableViewCell.swift */; };
 		D790CE17235B4F8C00DD47D9 /* Plants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D790CE16235B4F8C00DD47D9 /* Plants.swift */; };
 		D790CE19235B5B3D00DD47D9 /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D790CE18235B5B3D00DD47D9 /* Accounts.swift */; };
+		D7F5C2F92360013500D54D45 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F5C2F82360013500D54D45 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,6 @@
 		D720E1BB2357EAEA009C5A38 /* ios-WaterMyPlants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-WaterMyPlants.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D720E1BE2357EAEA009C5A38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D720E1C72357EAEC009C5A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D720E1CA2357EAEC009C5A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D720E1CC2357EAEC009C5A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D790CE0C235B49AF00DD47D9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D790CE0E235B4AD700DD47D9 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
@@ -34,6 +33,7 @@
 		D790CE14235B4E5D00DD47D9 /* PlantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantTableViewCell.swift; sourceTree = "<group>"; };
 		D790CE16235B4F8C00DD47D9 /* Plants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plants.swift; sourceTree = "<group>"; };
 		D790CE18235B5B3D00DD47D9 /* Accounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accounts.swift; sourceTree = "<group>"; };
+		D7F5C2F82360013500D54D45 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,6 @@
 		1B01BDBE235A5EFA0096AA9F /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				D720E1C42357EAEA009C5A38 /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -58,10 +57,6 @@
 		1B01BDBF235A5F9B0096AA9F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D720E1BE2357EAEA009C5A38 /* AppDelegate.swift */,
-				D720E1C72357EAEC009C5A38 /* Assets.xcassets */,
-				D720E1C92357EAEC009C5A38 /* LaunchScreen.storyboard */,
-				D720E1CC2357EAEC009C5A38 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -95,8 +90,8 @@
 				D790CE1A235B669F00DD47D9 /* Protocols */,
 				D790CE0B235B495200DD47D9 /* Storyboard */,
 				D720E1BE2357EAEA009C5A38 /* AppDelegate.swift */,
+				D7F5C2F82360013500D54D45 /* Launch Screen.storyboard */,
 				D720E1C72357EAEC009C5A38 /* Assets.xcassets */,
-				D720E1C92357EAEC009C5A38 /* LaunchScreen.storyboard */,
 				D720E1CC2357EAEC009C5A38 /* Info.plist */,
 			);
 			path = "ios-WaterMyPlants";
@@ -211,7 +206,7 @@
 			files = (
 				D790CE0F235B4AD700DD47D9 /* Login.storyboard in Resources */,
 				D790CE0D235B49AF00DD47D9 /* Main.storyboard in Resources */,
-				D720E1CB2357EAEC009C5A38 /* LaunchScreen.storyboard in Resources */,
+				D7F5C2F92360013500D54D45 /* Launch Screen.storyboard in Resources */,
 				D720E1C82357EAEC009C5A38 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,17 +229,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D720E1C92357EAEC009C5A38 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D720E1CA2357EAEC009C5A38 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D720E1CD2357EAEC009C5A38 /* Debug */ = {
