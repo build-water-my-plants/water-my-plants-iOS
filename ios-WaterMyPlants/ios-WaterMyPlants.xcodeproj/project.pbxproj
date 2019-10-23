@@ -11,6 +11,7 @@
 		1B444717235FED1C00AAD4C7 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B444716235FED1C00AAD4C7 /* CoreDataStack.swift */; };
 		1B444719235FED6000AAD4C7 /* User+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B444718235FED6000AAD4C7 /* User+Convenience.swift */; };
 		1B44471B235FEEA400AAD4C7 /* Plant+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B44471A235FEEA400AAD4C7 /* Plant+Convenience.swift */; };
+		1B7EC6C12360A52400547000 /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7EC6C02360A52400547000 /* UserController.swift */; };
 		D720E1BF2357EAEA009C5A38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720E1BE2357EAEA009C5A38 /* AppDelegate.swift */; };
 		D720E1C62357EAEA009C5A38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D720E1C42357EAEA009C5A38 /* Main.storyboard */; };
 		D720E1C82357EAEC009C5A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D720E1C72357EAEC009C5A38 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		1B444716235FED1C00AAD4C7 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		1B444718235FED6000AAD4C7 /* User+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+Convenience.swift"; sourceTree = "<group>"; };
 		1B44471A235FEEA400AAD4C7 /* Plant+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plant+Convenience.swift"; sourceTree = "<group>"; };
+		1B7EC6C02360A52400547000 /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserController.swift; path = "ios-WaterMyPlants/Models/UserController.swift"; sourceTree = SOURCE_ROOT; };
 		D720E1BB2357EAEA009C5A38 /* ios-WaterMyPlants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-WaterMyPlants.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D720E1BE2357EAEA009C5A38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D720E1C52357EAEA009C5A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		D720E1D22357ED8C009C5A38 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1B7EC6C02360A52400547000 /* UserController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7EC6C12360A52400547000 /* UserController.swift in Sources */,
 				1B44471B235FEEA400AAD4C7 /* Plant+Convenience.swift in Sources */,
 				1B444719235FED6000AAD4C7 /* User+Convenience.swift in Sources */,
 				1B444717235FED1C00AAD4C7 /* CoreDataStack.swift in Sources */,
