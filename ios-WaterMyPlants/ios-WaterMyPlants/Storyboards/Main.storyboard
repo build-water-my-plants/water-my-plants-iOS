@@ -30,7 +30,16 @@
                                             <rect key="frame" x="0.0" y="257" width="414" height="120"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(name)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yom-1X-Nw8">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Species Name)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1d-3v-6bZ">
+                                                    <rect key="frame" x="0.0" y="28.5" width="414" height="15"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="15" id="4L6-R4-i9C"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -73,6 +82,7 @@
                                     <outlet property="plantImageView" destination="doV-Y1-dVZ" id="xxT-lp-8Kb"/>
                                     <outlet property="plantNameLabel" destination="yom-1X-Nw8" id="53V-PN-bIO"/>
                                     <outlet property="plantScheduleLabel" destination="7rB-PR-ZDk" id="JlV-WN-NHm"/>
+                                    <outlet property="speciesLabel" destination="U1d-3v-6bZ" id="Erc-lE-d6n"/>
                                     <segue destination="ptp-wo-bWu" kind="show" identifier="cellSegue" id="pdm-al-PZu"/>
                                 </connections>
                             </tableViewCell>

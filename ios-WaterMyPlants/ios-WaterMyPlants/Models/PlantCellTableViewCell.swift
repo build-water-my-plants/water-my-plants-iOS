@@ -21,7 +21,8 @@ class PlantCellTableViewCell: UITableViewCell {
       @IBOutlet weak var plantImageView: UIImageView!
       @IBOutlet weak var plantScheduleLabel: UILabel!
       @IBOutlet weak var plantNameLabel: UILabel!
-      
+    @IBOutlet weak var speciesLabel: UILabel!
+    
     //MARK: - Private Functions
       private func updateVeiws(){
           guard let passedInPlant = plant,
