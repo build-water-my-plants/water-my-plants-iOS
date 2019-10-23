@@ -15,8 +15,8 @@
 		1B7EC6C32360A6B200547000 /* PlantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7EC6C22360A6B200547000 /* PlantController.swift */; };
 		1B7EC6C52360A84F00547000 /* PlantCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7EC6C42360A84F00547000 /* PlantCellTableViewCell.swift */; };
 		1B7EC6C72360A8B900547000 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7EC6C62360A8B900547000 /* DateExtension.swift */; };
+		1B7EC6C92360AA6E00547000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7EC6C82360AA6E00547000 /* Main.storyboard */; };
 		D720E1BF2357EAEA009C5A38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D720E1BE2357EAEA009C5A38 /* AppDelegate.swift */; };
-		D720E1C62357EAEA009C5A38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D720E1C42357EAEA009C5A38 /* Main.storyboard */; };
 		D720E1C82357EAEC009C5A38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D720E1C72357EAEC009C5A38 /* Assets.xcassets */; };
 		D720E1CB2357EAEC009C5A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D720E1C92357EAEC009C5A38 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -30,9 +30,9 @@
 		1B7EC6C22360A6B200547000 /* PlantController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlantController.swift; path = "ios-WaterMyPlants/Models/PlantController.swift"; sourceTree = SOURCE_ROOT; };
 		1B7EC6C42360A84F00547000 /* PlantCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlantCellTableViewCell.swift; path = "ios-WaterMyPlants/Models/PlantCellTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		1B7EC6C62360A8B900547000 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateExtension.swift; path = "ios-WaterMyPlants/Models/DateExtension.swift"; sourceTree = SOURCE_ROOT; };
+		1B7EC6C82360AA6E00547000 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D720E1BB2357EAEA009C5A38 /* ios-WaterMyPlants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-WaterMyPlants.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D720E1BE2357EAEA009C5A38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D720E1C52357EAEA009C5A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D720E1C72357EAEC009C5A38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D720E1CA2357EAEC009C5A38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D720E1CC2357EAEC009C5A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		1B01BDBE235A5EFA0096AA9F /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				D720E1C42357EAEA009C5A38 /* Main.storyboard */,
+				1B7EC6C82360AA6E00547000 /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -193,7 +193,7 @@
 			files = (
 				D720E1CB2357EAEC009C5A38 /* LaunchScreen.storyboard in Resources */,
 				D720E1C82357EAEC009C5A38 /* Assets.xcassets in Resources */,
-				D720E1C62357EAEA009C5A38 /* Main.storyboard in Resources */,
+				1B7EC6C92360AA6E00547000 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,14 +219,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D720E1C42357EAEA009C5A38 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D720E1C52357EAEA009C5A38 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D720E1C92357EAEC009C5A38 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
