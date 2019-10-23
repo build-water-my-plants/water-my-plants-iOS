@@ -10,11 +10,12 @@ import Foundation
 import CoreData
 
 extension Plant {
-    convenience init(name: String, species: String, photo: Data? = nil, schedule: Date, context: NSManagedObjectContext = CoreDataStack.shared.mainContext){
+    convenience init(name: String, species: String, photo: Data? = nil, schedule: Date, user: User, context: NSManagedObjectContext = CoreDataStack.shared.mainContext){
         self.init(context: context)
         self.name = name
         self.species = species
         self.schedule = schedule
         self.photo = photo
+        self.user = user
     }
 }
