@@ -18,7 +18,7 @@ class CoreDataStack {
     //step 3: create a container to hold the stack
     let container: NSPersistentContainer = {
         //create this container to be run later, when someone asks for it instead of immediately
-        let container = NSPersistentContainer(name: "Owner")
+        let container = NSPersistentContainer(name: "User")
         //step 4 tell the container what to do
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
