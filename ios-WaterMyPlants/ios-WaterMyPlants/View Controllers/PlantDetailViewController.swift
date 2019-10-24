@@ -75,6 +75,7 @@ class PlantDetailViewController: UIViewController {
 
         func showCamera(){
             //check to see if they have camera
+            
             if UIImagePickerController.isSourceTypeAvailable(.camera) {
                 //dress up camera
                 imagePicker.sourceType = .camera
