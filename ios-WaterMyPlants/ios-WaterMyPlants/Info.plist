@@ -41,9 +41,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Please allow access to your photo library to view plants.</string>
-	<key>NSCameraUsageDescription</key>
-	<string>Please allow access to camera so that you can take a picture of your plant to post. </string>
 </dict>
 </plist>

@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cCU-Mh-sWm">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mda-cw-eg5">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+>>>>>>> develop
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+<<<<<<< HEAD
         <!--Plant List-->
         <scene sceneID="sxy-mx-vMw">
             <objects>
                 <tableViewController id="jgN-kj-fdM" customClass="PlantListTableViewController" customModule="ios_WaterMyPlants" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="377" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="AKH-I6-Enh">
+=======
+        <!--Water My Plants-->
+        <scene sceneID="rvZ-jn-mNc">
+            <objects>
+                <tableViewController id="Ada-L7-2cF" customClass="PlantTableViewController" customModule="ios_WaterMyPlants" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="iVU-tL-htw">
+>>>>>>> develop
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
+<<<<<<< HEAD
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="plantCell" rowHeight="377" id="SFQ-Br-e0I" customClass="PlantCellTableViewCell" customModule="ios_WaterMyPlants" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="377"/>
                                 <autoresizingMask key="autoresizingMask"/>
@@ -84,10 +100,22 @@
                                     <outlet property="plantScheduleLabel" destination="7rB-PR-ZDk" id="JlV-WN-NHm"/>
                                     <outlet property="speciesLabel" destination="U1d-3v-6bZ" id="Erc-lE-d6n"/>
                                     <segue destination="ptp-wo-bWu" kind="show" identifier="cellSegue" id="pdm-al-PZu"/>
+=======
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlantCell" id="GEf-ol-7XW">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GEf-ol-7XW" id="6tl-xI-3dO">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="qpV-Jj-w4S" kind="show" id="BWb-XK-QsU"/>
+>>>>>>> develop
                                 </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
+<<<<<<< HEAD
                             <outlet property="dataSource" destination="jgN-kj-fdM" id="a6I-fW-Ra9"/>
                             <outlet property="delegate" destination="jgN-kj-fdM" id="W7n-3k-28D"/>
                         </connections>
@@ -289,4 +317,68 @@
     <inferredMetricsTieBreakers>
         <segue reference="i5U-l0-Ka6"/>
     </inferredMetricsTieBreakers>
+=======
+                            <outlet property="dataSource" destination="Ada-L7-2cF" id="fEh-X9-dRP"/>
+                            <outlet property="delegate" destination="Ada-L7-2cF" id="1hF-Um-Qfw"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Water My Plants" largeTitleDisplayMode="always" id="0q7-fu-HFn">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="XXx-Kq-WrM"/>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="MBX-u3-SNX" kind="show" identifier="ToLogin" id="mlz-aa-WcT"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="da8-wR-PQx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="417" y="-20"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="88Q-Bg-6M8">
+            <objects>
+                <viewController id="qpV-Jj-w4S" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qzC-wO-rJn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="RX2-h4-7aS"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2zT-Ge-cjw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZC0-28-OyH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1339" y="-20"/>
+        </scene>
+        <!--Login-->
+        <scene sceneID="kMl-ke-qZi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Login" id="MBX-u3-SNX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="1JF-So-HqM"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zL4-OT-bUv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1086" y="-503"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Z9q-bd-yvI">
+            <objects>
+                <navigationController hidesBarsOnSwipe="YES" id="Mda-cw-eg5" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="q42-Zi-Jmm">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xtY-y5-5Hb">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="Ada-L7-2cF" kind="relationship" relationship="rootViewController" id="5fl-S1-CgI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ruh-GV-ln7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-500" y="-20"/>
+        </scene>
+    </scenes>
+>>>>>>> develop
 </document>
